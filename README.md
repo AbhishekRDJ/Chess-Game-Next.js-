@@ -189,9 +189,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername) - your.email@example.com
+Your Name - Abhishek Sangule
+[@yourusername]([https://instagram.com/yourusername](https://www.instagram.com/abhishekidz207/)) 
+email - abhisheksangule6@gmail.com
 
-Project Link: [https://github.com/yourusername/chess-game-nextjs](https://github.com/yourusername/chess-game-nextjs)
+Project Link: [https://github.com/yourusername/chess-game-nextjs](https://github.com/AbhishekRDJ/chess-game-nextjs)
 
 ---
 
