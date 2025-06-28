@@ -46,22 +46,23 @@ A beautiful, interactive chess game built with Next.js, React, and TypeScript, f
 ## 📁 Project Structure
 
 ```
-chess-game/
-├── src/
-│   ├── components/
-│   │   └── ChessBoard.tsx          # Main chess game component
-│   ├── lib/
-│   │   ├── logic.ts               # Chess game logic and rules
-│   │   ├── useSound.ts            # Sound effects utility
-│   │   └── useConfetti.ts         # Confetti animation utility
-│   └── styles/
-│       └── globals.css            # Global styles and Tailwind config
+chess-next/
+├── app/
+│   ├── page.tsx         → Home screen (Board UI)
+│   └── api/
+│       └── game/route.ts → Backend route (game data or multiplayer later)
+├── components/
+│   ├── ChessBoard.tsx   → Renders the board
+│   └── Piece.tsx        → Handles rendering individual pieces
+├── lib/
+│   └── logic.ts         → All game logic (moves, turns, etc.)
+├── styles/
+│   └── globals.css
 ├── public/
-│   └── sounds/                    # Game sound files
-├── package.json
+│   └── pieces/          → Piece images (SVG or PNG)
 ├── tailwind.config.js
-├── tsconfig.json
-└── README.md
+└── next.config.js
+
 ```
 
 ## 🚀 Getting Started
@@ -75,12 +76,12 @@ chess-game/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/chess-game-nextjs.git
-   cd chess-game-nextjs
+   cd chess-next
    ```
 
 2. **Install dependencies**
    ```bash
-   npm install
+   npm install OR npm i
    # or
    yarn install
    ```
